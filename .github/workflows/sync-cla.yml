@@ -1,0 +1,8 @@
+- name: Checkout
+  uses: actions/checkout@v1
+- name: Gist Repo Sync
+  uses: pentatonicfunk/action-gist-repo-sync@v1
+  with:
+    gist_token: ${{ secrets.GIST_TOKEN }}
+    gist_id: 340930a2f3fd9c22640e6f2a67a32972
+    source_path: cla
